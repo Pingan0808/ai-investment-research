@@ -17,13 +17,13 @@ from typing import Dict, List, Any
 from dataclasses import dataclass
 from enum import Enum
 
-from 代理人 import (
+from agents import (
     DataCollectionAgent,
     FinancialAnalysisAgent,
     SentimentAnalysisAgent,
     ReportGenerationAgent
 )
-from 实用性 import (
+from utils import (
     render_stock_chart,
     render_financial_charts,
     render_peer_comparison,
